@@ -9,7 +9,7 @@ import javax.swing.border.LineBorder;
 import java.awt.geom.RoundRectangle2D;
 
 public class Main {
-    // Modern Color Scheme
+//    Styling
     private static final Color DARK_BG = new Color(18, 18, 18);
     private static final Color DARKER_BG = new Color(24, 24, 24);
     private static final Color ACCENT = new Color(86, 71, 255);
@@ -46,7 +46,6 @@ public class Main {
         // Add main content
         frame.add(createMainPanel(), BorderLayout.CENTER);
 
-        // Make window draggable from anywhere
         addWindowDraggability();
 
         // Custom window decoration
@@ -77,7 +76,7 @@ public class Main {
         titleBar.setBackground(DARK_BG);
         titleBar.setBorder(new EmptyBorder(0, 0, 20, 0));
 
-        JLabel title = new JLabel("Weather Search");
+        JLabel title = new JLabel("Chtatata");
         title.setForeground(TEXT);
         title.setFont(new Font("Segoe UI", Font.BOLD, 24));
         titleBar.add(title, BorderLayout.WEST);
